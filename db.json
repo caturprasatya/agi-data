@@ -1,14 +1,127 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "products": [
+    [
+      {
+        "id": 1,
+        "product_name": "Gloves",
+        "product_price": "10.00",
+        "ppn": 0.11,
+        "supplier_name": "Medical Supplies Inc.",
+        "product_quantity": 500,
+        "delivery_status": "Completed",
+        "vendor_name": "Healthcare Distributors",
+        "created_at": "2024-03-13T09:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "product_name": "Face Masks",
+        "product_price": "1.50",
+        "ppn": 0.11,
+        "supplier_name": "MediCorp",
+        "product_quantity": 1000,
+        "delivery_status": "Cancelled",
+        "vendor_name": "Health Essentials",
+        "created_at": "2024-03-12T10:30:00.000Z"
+      },
+      {
+        "id": 3,
+        "product_name": "Bandages",
+        "product_price": "5.00",
+        "ppn": 0.11,
+        "supplier_name": "Medical Solutions Ltd.",
+        "product_quantity": 300,
+        "delivery_status": "Delivered",
+        "vendor_name": "First Aid Supplies Inc.",
+        "created_at": "2024-03-11T14:15:00.000Z"
+      },
+      {
+        "id": 4,
+        "product_name": "Surgical Masks",
+        "product_price": "2.50",
+        "ppn": 0.11,
+        "supplier_name": "Surgical Supplies Co.",
+        "product_quantity": 800,
+        "delivery_status": "Delivered",
+        "vendor_name": "Healthcare Distributors",
+        "created_at": "2024-03-10T08:45:00.000Z"
+      },
+      {
+        "id": 5,
+        "product_name": "Antiseptic Solution",
+        "product_price": "8.00",
+        "ppn": 0.11,
+        "supplier_name": "Sterile Solutions Inc.",
+        "product_quantity": 200,
+        "delivery_status": "Delivered",
+        "vendor_name": "Medical Warehouse",
+        "created_at": "2024-03-09T11:20:00.000Z"
+      },
+      {
+        "id": 6,
+        "product_name": "Scalpels",
+        "product_price": "15.00",
+        "ppn": 0.11,
+        "supplier_name": "Surgical Instruments Ltd.",
+        "product_quantity": 150,
+        "vendor_name": "Healthcare Distributors",
+        "created_at": "2024-03-08T13:45:00.000Z"
+      },
+      {
+        "id": 7,
+        "product_name": "IV Catheters",
+        "product_price": "20.00",
+        "ppn": 0.11,
+        "supplier_name": "Medical Innovations",
+        "product_quantity": 100,
+        "delivery_status": "Delivered",
+        "vendor_name": "Healthcare Distributors",
+        "created_at": "2024-03-07T16:00:00.000Z"
+      },
+      {
+        "id": 8,
+        "product_name": "Patient Gowns",
+        "product_price": "7.50",
+        "ppn": 0.11,
+        "supplier_name": "Comfort Care Textiles",
+        "product_quantity": 400,
+        "delivery_status": "Delivered",
+        "vendor_name": "Hospital Linen Supplies",
+        "created_at": "2024-03-06T09:30:00.000Z"
+      },
+      {
+        "id": 9,
+        "product_name": "Thermometers",
+        "product_price": "25.00",
+        "ppn": 0.11,
+        "supplier_name": "Healthcare Instruments Inc.",
+        "product_quantity": 80,
+        "delivery_status": "In Transit",
+        "vendor_name": "Medical Warehouse",
+        "created_at": "2024-03-05T14:10:00.000Z"
+      },
+      {
+        "id": 10,
+        "product_name": "Wheelchairs",
+        "product_price": "200.00",
+        "ppn": 0.11,
+        "supplier_name": "Mobility Solutions Ltd.",
+        "product_quantity": 20,
+        "delivery_status": "Pending",
+        "vendor_name": "Healthcare Equipment Distributors",
+        "created_at": "2024-03-04T08:00:00.000Z"
+      }
+    ]
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": 1,
+      "profile_picture": "https://lh3.googleusercontent.com/a-/AOh14Gh9Y_5QaiDwyQYywRbkqRPOtdzCuLVJsT-KQ2sAvQ=s96-c",
+      "profile_name": "Loyo Sartono",
+      "profile_number": "089132323232",
+      "roles": [],
+      "deleted": false,
+      "email": "sartonoloyo@gmail.com",
+      "createdAt": "2020-10-11T07:51:46.541Z"
+    }
+  ]
 }
